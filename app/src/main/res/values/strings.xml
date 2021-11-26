@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Ocean Tech</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_text1">Em 2015, a ONU (Organização das Nações Unidas) estabeleceu 17 Objetivos de Desenvolvimento Sustentável para serem alçancados até o ano de 2030.\n\nA ONG \&quot;Terra, planeta Água\&quot; busca criar maneiras de deixar a humanidade mais próxima de alcançar o 14ª objetivo dessa lista: \&quot;conservar e usar de forma sustentável os oceanos, mares e recursos marinhos para o desenvolvimento sustentável\&quot;.</string>
+    <string name="main_text2">Tendo em mente a triste situação das águas do planeta com relação a poluição, que cada vez mais prejudica a vida marinha, foi criado este aplicativo. Nosso objetivo é monitorar a situação das águas em diversos pontos pelo território brasileiro e disponibilizar essas informações de maneira fácil e intuitiva.</string>
+    <string name="info_tv_text_members">André Luiz Maia Tapioca – RM 79922 – 3SIB\nGabriel Domingues de Almeida – RM 83422 – 3SIB\nGiulianno Zanetti – RM 82126 – 3SIR\nGuilherme Hideki Takara Chalita – RM 82358 – 3SIB\nMarcos Lopes da Silva Junior – RM 82813 – 3SIB</string>
+    <string name="info_tv_title">INTEGRANTES</string>
+    <string name="home">Início</string>
+    <string name="search">Pesquisa</string>
+    <string name="info">Sobre</string>
+    <string name="exit">Sair</string>
+    <string name="main_title">Terra, Planeta Água\nOcean Tech</string>
+    <string name="login_title">Terra, Planeta Água\nOcean Tech</string>
+    <string name="your_email_hint">Digite seu e-mail</string>
+    <string name="hint_your_password">Digite sua senha</string>
+    <string name="field_empty_invalid">Campo vazio ou inválido</string>
+    <string name="loading_data">Carregando dados…</string>
+    <string name="failed_search">Falha ao buscar relatórios</string>
+    <string name="login">Entrar</string>
+    <string name="search_title">Pesquisa de Dados de Relatórios</string>
+    <string name="search_text">Nossa ONG possui diversos sensores espalhados pela costa brasileira que medem a qualidade das águas do oceano e nos retornam dados importantes como PH e temperatura.\n\nEscolha uma localidade da qual deseja retornar os dados ou selecione \&quot;Todas\&quot; para ter acesso à todos os nossos relatórios.</string>
+    <string name="search_bt">PESQUISAR</string>
+    <string name="list_data_label">Data e hora:\t</string>
+    <string name="list_temperatura_label">Temperatura (Celsius):\t</string>
+    <string name="list_ph_label">PH:\t</string>
+    <string name="list_oxigenio_label">Oxigênio Dissolvido (mg/l):\t</string>
+    <string name="actv_select_relatorio_hint">Escolha uma localidade</string>
+    <string name="register">Cadastre-se</string>
+    <string name="fill_in_the_fields">Preencha os campos</string>
+    <string name="confirm_password_hint">Confirme sua senha</string>
+    <string name="register_register_bt_text">Cadastrar</string>
+    <string name="return_bt_text">Voltar</string>
+    <string name="email_and_or_password_incorrect">E-mail e/ou Senha incorretos</string>
+    <string name="register_sucessful">Usuário cadastrado com sucesso!</string>
+    <string name="passwords_must_be_the_same">Senhas devem ser iguais</string>
+    <string name="register_failed">Falha ao cadastrar usuário\nÉ possível que esse e-mail já esteja cadastrado</string>
+    <string name="choose_location">Escolha uma localidade</string>
+    <string-array name="relatorio_type">
+        <item>Todas</item>
+        <item>Belém</item>
+        <item>Recife</item>
+        <item>Salvador</item>
+    </string-array>
+</resources>

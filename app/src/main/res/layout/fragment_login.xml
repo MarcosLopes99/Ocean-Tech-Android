@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentLogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LoginFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_margin="@dimen/margin_screen_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="@dimen/login_logo_size"
+            android:layout_height="@dimen/login_logo_size"
+            android:src="@drawable/logo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/tvLoginTitle"
+            android:layout_marginTop="@dimen/margin_top_login_screen" />
+
+        <TextView
+            android:id="@+id/tvLoginTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivLogo"
+            app:layout_constraintBottom_toTopOf="@id/tilLoginEmail"
+            android:text="@string/login_title"
+            android:textSize="@dimen/login_title_size"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/login_title_margin_top"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilLoginEmail"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_text_field_margin"
+            android:hint="@string/your_email_hint"
+            app:layout_constraintTop_toBottomOf="@id/tvLoginTitle"
+            app:layout_constraintBottom_toTopOf="@id/tilLoginPassword"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:startIconDrawable="@drawable/ic_user">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tieLoginEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilLoginPassword"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_login_til"
+            android:hint="@string/hint_your_password"
+            app:passwordToggleEnabled="true"
+            app:layout_constraintTop_toBottomOf="@id/tilLoginEmail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/btLogin"
+            app:startIconDrawable="@drawable/ic_lock">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tieLoginPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btLogin"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/login_bt_height"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tilLoginPassword"
+            app:layout_constraintBottom_toTopOf="@id/btRegister"
+            android:layout_marginTop="@dimen/login_text_field_margin"
+            android:layout_marginBottom="@dimen/margin_bottom_login_bt"
+            android:text="@string/login"
+            android:textStyle="bold"
+            android:textSize="@dimen/login_bt_txt_size"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/dark_green"/>
+
+        <Button
+            android:id="@+id/btRegister"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/login_register_bt_height"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btLogin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="@dimen/login_margin_bottom_screen"
+            android:layout_marginStart="@dimen/margin_sides_register_bt"
+            android:layout_marginEnd="@dimen/margin_sides_register_bt"
+            android:text="@string/register"
+            android:textSize="@dimen/register_bt_text_size"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/dark_blue"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
