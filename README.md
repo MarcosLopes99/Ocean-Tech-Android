@@ -1,6 +1,6 @@
 # Ocean-Tech-Android
 Projeto de Prova Semestral. Aplicativo Android com login e cadastro utilizando Firebase Authentication e consumo de API com Retrofit.
-Aplicativo de uma ONG fictícia que análisa parâmetros do oceano pela costa brasileira.
+Aplicativo de uma ONG fictícia que analisa parâmetros do oceano pela costa brasileira.
 
 
 ## DESCRIÇÃO DO PROJETO:
